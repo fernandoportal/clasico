@@ -85,3 +85,21 @@ body {
 .mb-10{
   margin-bottom: 10px;
 }
+
+.cap-stripes{
+  height: 40px;
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom:10px;
+  background: -webkit-repeating-linear-gradient(left, #ebc12e, #ebc12e 10px, #333 10px, #333 20px);
+  background: repeating-linear-gradient(to right, #222, #222 10px, #ebc12e 10px, #ebc12e 20px);
+}
+
+.nac-stripes{
+  height: 40px;
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom:10px;
+  background: -webkit-repeating-linear-gradient(145deg, blue, red 10px, white 10px, blue 20px);
+  background: repeating-linear-gradient(-55deg, blue, red 10px, white 10px, blue 20px);
+}
